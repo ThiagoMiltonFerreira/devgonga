@@ -6,6 +6,7 @@
 ![devgonga website print](https://github.com/DevGonga/devgonga/blob/master/img/print.png)
 
 
+
 #Antes de contribuir (PT)
 Por mais de 20 anos, a Iniciativa de Código Aberto (Open Source Initiative - OSI) tem trabalhado para aumentar a consciencializarão e a adoção de “software”  de código aberto, e construir pontes entre comunidades de código aberto de prática. Como organização global sem fins lucrativos, o OSI defende a liberdade de “software” na sociedade por meio da educação, colaboração e infraestrutura, administrando a Definição de Código Aberto (Open Source Definition - OSD) e prevenindo o abuso dos ideais e ethos inerentes ao movimento de código aberto.
 
@@ -16,6 +17,7 @@ Este Website aberto é feito por pessoas que acreditam na iniciativa open source
 A liberdade do “software” é essencial para permitir o desenvolvimento da comunidade  “software” de código aberto em angola e no mundo.
 
 #Dependências 
+
 jQuery
 Font-awesome
 #Apoiado por
@@ -37,8 +39,10 @@ This open website is made by people who believe in the open source initiative so
 > The freedom of software is essential to enable the development of the open source software community in Angola and around the world
 
 # Dependencies
+
 jQuery
 Font-awesome
+
 #Supported by
 
 |  Contact Us |  Institution  |  Parents |
