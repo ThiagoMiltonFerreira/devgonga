@@ -3,7 +3,7 @@
 
 ![GitHub stars](https://img.shields.io/github/stars/devgonga/devgonga.svg?style=for-the-badge&label=Estrelas)
 
-![devgonga website print](https://github.com/DevGonga/devgonga/blob/master/img/print.png)
+
 
 
 # Antes de contribuir (PT)
