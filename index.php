@@ -14,7 +14,6 @@
 		<meta name="author" content="Devgonga"/>
 		<meta name="description" content="Devgonga é uma startup com foco em criação de sites e desenvolvimento de sistemas web, moldada para atender a pequenas e médias empresas ao redor de angola."/>
 		<meta name="keywords" content="devgonga, Desenvolvimento web angola, Criação de Websites e sites, Soluções Web, Sistemas web"/>
-		
 		<meta name="robots" content="index,follow">
 		<!--Facebook Metatag-->
 		<meta property="og:title" content="Devgonga"/>
@@ -30,198 +29,218 @@
 		<meta name="twitter:creator" content="@devgonga" />
 		<!--Fim SEO-->
 		<!--Folhas de estilo-->
+		<!--<link rel="stylesheet" type="text/css" href="css/componentes.css"/>-->
+		
+		<link rel="stylesheet" type="text/css" href="css/preto.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+		<!---->
 		<link rel="icon" href="img/logo.ico" type="image/x-icon"/>
 	</head>
 	<body>
-		
-		<header class="cabecalho devflex fpreto pequeno" id="cabecalho">
-			<div class="centro devflex cabecalho">
-				<div class="logotipo devflex"><img src="img/logo.png" alt="devgonga logo" title="Devgonga"> </div>
-				<i class="fa fa-bars botao-menu cazul-escuro" title="Abrir Menu"></i>
-				<nav class="menu">
-					<ul class="devflex">
-						<a href="www.devgonga.com" onmouseover="modal('3')"> Inicio </a>
-						<li class="c1" onmouseover="modal('1')"><a href="#">Startup </i></a>
-						<ul class="o1" >
-							<li><a href="www.devgonga.com">Institucional</a></li>
-							<li><a href="www.devgonga.com">Equipe</a></li>
+
+	<!--Cabeçalho-->
+			<header class="cabecalho devflex fpreto pequeno" id="cabecalho">
+				<div class="centro devflex cabecalho">
+					<div class="logotipo devflex"><img src="img/logo.png" alt="devgonga logo" title="Devgonga"> </div>
+					<i class="fa fa-bars botao-menu cazul-escuro" title="Abrir Menu"></i>
+					<nav class="menu">
+						<ul class="devflex">
+							<a href="www.devgonga.com" onmouseover="modal('3')"> Inicio </a>
+							<li class="c1" onmouseover="modal('1')"><a href="#">Startup </i></a>
+							<ul class="o1 curvaP" >
+								<li><a href="www.devgonga.com">Institucional</a></li>
+								<li><a href="www.devgonga.com">Equipe</a></li>
+								
+							</ul>
+						</li>
+						<li class="c2" onmouseover="modal('2')" ><a href="#">Serviços </i></a>
+						<ul class="o2 curvaP">
+							<li><a href="www.devgonga.com">Criação de Sites</a></li>
+							<li><a href="www.devgonga.com">Sistemas Web</a></li>
+							<li><a href="www.devgonga.com">Design Gráfico</a></li>
 							
 						</ul>
 					</li>
-					<li class="c2" onmouseover="modal('2')" ><a href="#">Serviços </i></a>
-					<ul class="o2">
-						<li><a href="www.devgonga.com">Criação de Sites</a></li>
-						<li><a href="www.devgonga.com">Sistemas Web</a></li>
-						<li><a href="www.devgonga.com">Design Gráfico</a></li>
-						
-					</ul>
-				</li>
-				
-				<a href="www.devgonga.com" onmouseover="modal('3')">Portfólio</a>
-				<a href="www.devgonga.com" onmouseover="modal('3')">Contacto</a>
-			</ul>
-		</nav>
-		
-		</header>	   <!--Nav-->
-		
-		<!--Nav-->
-	</div>
-	<div class="banner">
-		
-		<div class="centro">
-			<article class="banner-artigo devflex">
-				<div class="testo">
-					<h1>Bem-vindo a Devgonga</h1>
-					<p>Somos uma startup com foco em criação de sites e desenvolvimento de sistemas web, moldada para atender a pequenas e médias empresas ao redor de angola.
+					
+					<a href="www.devgonga.com" onmouseover="modal('3')">Portfólio</a>
+					<a href="www.devgonga.com" onmouseover="modal('3')">Contacto</a>
+				</ul>
+			</nav></div> 
+			</header>	
+	<!--Cabeçalho-->
+
+	<!--Banner de apresentação-->
+		<div class="banner">
+			<div class="centro">
+				<article class="banner-artigo devflex">
+					<div class="testo">
+						<h1>Bem-vindo a Devgonga</h1>
+						<p>Somos uma startup com foco em criação de sites e desenvolvimento de sistemas web, moldada para atender a pequenas e médias empresas ao redor de angola.
+						</div>
+					</p>
+					<div class="banner-artigo-imagem">
+						<img src="img/logo-preto.jpg">
 					</div>
-				</p>
-				<div class="banner-artigo-imagem">
-					<img src="img/logo-preto.jpg">
+				</article>
+			</div>
+			<img src="img/baixo.jpg" class="banner-fundo">
+		</div>
+	<!--Banner de apresentação-->
+
+	<!--O que fazemos-->
+		<section class="fazemos">
+			<div class="centro">
+				<h2>O que fazemos?</h2>
+				<p>Aproveite ao máximo a web com os serviços que temos para você!</p>
+				<div class="cards devflex grande">
+					<article class="card fazul-iluminado grande">
+						<h3 class="pequeno">Criação de Sites</h3>
+						<p>Nos dias de hoje o website se tornou um cartão de visita importantíssimo para qualquer empresa. Ao acessá-lo, o usuário.</p>
+						<a href="www.devgonga.com" class="cazul">CONSULTE MAIS INFORMAÇÃO <i class="fa fa-arrow-right"></i></a>
+					</article>
+					<article class="card fazul-iluminado grande">
+						<h3 class="pequeno">Sistemas  Web</h3>
+						<p>Os Sistemas Web são fundamentais quando a necessidade é concentrar e disponibilizar informações na Web..</p>
+						<a href="www.devgonga.com" class="cverde">CONSULTE MAIS INFORMAÇÃO <i class="fa fa-arrow-right"></i></a>
+					</article>
+					<article class="card fazul-iluminado grande">
+						<h3 class="pequeno">Design Gráfico</h3>
+						<p>A criação de materiais gráficos logomarcas, cartões de visita, panfletos, catálogos, anúncios impressos e banners.</p>
+						<a href="www.devgonga.com" class="cvermelho">CONSULTE MAIS INFORMAÇÃO	<i class="fa fa-arrow-right"></i></a>
+					</article>
 				</div>
-			</article>
-		</div>
-		<img src="img/baixo.jpg" class="banner-fundo">
-	</div>
-	<section class="fazemos">
-		<div class="centro">
-			<h2>O que fazemos?</h2>
-			<p>Aproveite ao máximo a web com os serviços que temos para você!</p>
-			<div class="cards devflex grande">
-				<article class="card fazul-iluminado grande">
-					<h3 class="pequeno">Criação de Sites</h3>
-					<p>Nos dias de hoje o website se tornou um cartão de visita importantíssimo para qualquer empresa. Ao acessá-lo, o usuário.</p>
-					<a href="www.devgonga.com" class="cazul">CONSULTE MAIS INFORMAÇÃO <i class="fa fa-arrow-right"></i></a>
-				</article>
-				<article class="card fazul-iluminado grande">
-					<h3 class="pequeno">Sistemas  Web</h3>
-					<p>Os Sistemas Web são fundamentais quando a necessidade é concentrar e disponibilizar informações na Web..</p>
-					<a href="www.devgonga.com" class="cverde">CONSULTE MAIS INFORMAÇÃO <i class="fa fa-arrow-right"></i></a>
-				</article>
-				<article class="card fazul-iluminado grande">
-					<h3 class="pequeno">Design Gráfico</h3>
-					<p>A criação de materiais gráficos logomarcas, cartões de visita, panfletos, catálogos, anúncios impressos e banners.</p>
-					<a href="www.devgonga.com" class="cvermelho">CONSULTE MAIS INFORMAÇÃO	<i class="fa fa-arrow-right"></i></a>
-				</article>
 			</div>
-		</div>
-	</section>
-	<section class="novahera pequeno">
-		<div class="centro devflex " data-aos="zoom-in">
-			<div class="testo-futuro">
-				<h2 class="">A transformação digital já chegou a Angola.</h2>
-				<p class="">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. .</p>
-				<ul>
-					
-					<li> <i class="fa fa-check"></i> O Lorem Ipsum é um texto modelo da indústria tipográfica</li>
-				</ul>
-				<a href="" class="link pequeno ">MAIS INFORMAÇÃO</a>
-			</div>
-			<div class="imagem"  data-aos="fade-up"
-			><img src="img/web.png" alt="Era digital angola"></div>
-		</div>
-	</section>
-	<section class="projectos">
-		<div class="centro" data-aos="zoom-in">
-			<h2>Últimos Projetos</h2>
-			<p>Nosso trabalho gera os resultados que você precisa para o seu negócio. Confira alguns de nossos feitos.</p>
-			<div class="cards devflex grande">
-				<article class="card fazul grande curvaP" data-aos="fade-right"data-aos-duration="700">
-					<h3 class="pequeno">Tenda Digital, lda</h3>
-					<p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica.</p>
-				</article>
-				<article data-aos="fade-down"  data-aos-duration="700" class="card fverde grande curvaP" >
-					<h3 class="pequeno">Epito, lda</h3>
-					<p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica.</p>
-				</article>
-				<article class="card fvermelho grande curvaP" data-aos="fade-left"
-					
-					data-aos-duration="700">
-					<h3 class="pequeno">Design Gráfico</h3>
-					<p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica.</p>
-					
-				</article>
-			</div>
-		</div>
-	</section>
-	<div class="banner">
-		<img src="img/top.jpg" class="banner-fundo">
-		<div class="centro">
-			<article class="banner-artigo devflex grande entre rodape">
-				<div class="testo" data-aos="fade-left"
-					
-					data-aos-duration="700">
-					<h1>Fale agora conosco!</h1>
-					<p>Envie uma mensagem através do formulário ou diretamente no nosso e-mail. </p>
+		</section>
+	<!--O que fazemos-->
+
+	<!--Transformação angolana-->
+		<section class="novahera pequeno">
+			<div class="centro devflex " data-aos="zoom-in">
+				<div class="testo-futuro">
+					<h2 class="">A transformação digital já chegou a Angola.</h2>
+					<p class="">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro. .</p>
+					<ul>
+						
+						<li> <i class="fa fa-check"></i> O Lorem Ipsum é um texto modelo da indústria tipográfica</li>
+					</ul>
+					<a href="" class="link pequeno ">MAIS INFORMAÇÃO</a>
 				</div>
-				<div class="banner-card fbranco curvaM " data-aos="fade-right"
-					
-					data-aos-duration="700">
-					<h6>Devgonga</h6>
-					<p>Estamos sempre disponível para atende-lo</p>
-					<form class="devflex" >
-						<input type="text" name="nome" placeholder="Name">
-						<input type="email" name="email" placeholder="Email">
-						<input type="email" name="email" placeholder="Mensagem">
-						<input type="submit" name="enviar" placeholder="Inscreva-se agora">
-					</form>
+				<div class="imagem"  data-aos="fade-up"
+				><img src="img/web.png" alt="Era digital angola"></div>
+			</div>
+		</section>
+	<!--Transformação angolana-->
+
+	<!--Ultimos projectos-->
+		<section class="projectos">
+			<div class="centro" data-aos="zoom-in">
+				<h2>Últimos Projetos</h2>
+				<p>Nosso trabalho gera os resultados que você precisa para o seu negócio. Confira alguns de nossos feitos.</p>
+				<div class="cards devflex grande">
+					<article class="card fazul grande curvaP" data-aos="fade-right"data-aos-duration="700">
+						<h3 class="pequeno">Tenda Digital, lda</h3>
+						<p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica.</p>
+					</article>
+					<article data-aos="fade-down"  data-aos-duration="700" class="card fverde grande curvaP" >
+						<h3 class="pequeno">Epito, lda</h3>
+						<p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica.</p>
+					</article>
+					<article class="card fvermelho grande curvaP" data-aos="fade-left"
+						
+						data-aos-duration="700">
+						<h3 class="pequeno">Design Gráfico</h3>
+						<p>É um facto estabelecido de que um leitor é distraído pelo conteúdo legível de uma página quando analisa a sua mancha gráfica.</p>
+						
+					</article>
 				</div>
-				
-			</article>
-		</div>
-		
-	</div>
-	<footer class="footer devflex fpreto pequeno">
-		<div class="centro devflex conteudo">
-			<div class=""><p>Devgonga © 2018-2019 | Todos direitos reservados</p></div>
-			<div class="">
-				<ul class="devflex social-icon-list">
-					<li><a href="https://www.facebook.com/devgonga0" title="Devgonga no facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="" title="Devgonga no twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/devgonga" title="Devgonga no linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="" title="Devgonga no github" target="_blank"><i class="fa fa-github"></i></a></li>
-					<li><a href="https://www.instagram.com/devgonga/" title="Devgonga no instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
-				</ul>
+			</div>
+		</section>
+	<!--Ultimos projectos-->
+
+	
+
+	<!--Contactar-->
+		<div class="banner">
+			<img src="img/top.jpg" class="banner-fundo">
+			<div class="centro">
+				<article class="banner-artigo devflex grande entre rodape">
+					<div class="testo" data-aos="fade-left"
+						data-aos-duration="700">
+						<h1>Fale agora conosco!</h1>
+						<p>Envie uma mensagem através do formulário ou diretamente no nosso e-mail. </p>
+						<p>Tel: <a href="tel:996965066">996965066</a></p>
+						<p>Email: <a href="mailto:devgonga@gmail.com">devgonga@gmail.com</a></p>
+						<p>Endereço: Benguela-Lobito-Liro</p>
+					</div>
+					<div class="banner-card fbranco curvaM " data-aos="fade-right"
+						data-aos-duration="700">
+						<h6>Devgonga</h6>
+						<p>Estamos sempre disponível para atende-lo</p>
+						<form class="devflex" >
+							<input type="text" name="nome" placeholder="Name">
+							<input type="email" name="email" placeholder="Email">
+							<input type="email" name="email" placeholder="Mensagem">
+							<input type="submit" name="enviar" placeholder="Inscreva-se agora">
+						</form>
+					</div>
+				</article>
 			</div>
 		</div>
-	</footer>
+	<!--Contactar-->
+	<!--Rodape-->
+		<footer class="footer devflex fpreto pequeno">
+			<div class="centro devflex conteudo">
+				<div class=""><p>Devgonga © 2018-2019 | Todos direitos reservados</p></div>
+				<div class="">
+					<ul class="devflex social-icon-list">
+						<li><a href="https://www.facebook.com/devgonga0" title="Devgonga no facebook" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="" title="Devgonga no twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/devgonga" title="Devgonga no linkedin" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="" title="Devgonga no github" target="_blank"><i class="fa fa-github"></i></a></li>
+						<li><a href="https://www.instagram.com/devgonga/" title="Devgonga no instagram" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	<!--Rodape-->
+
 	<!--Script-->
-	<script  src="js/jquery.js"></script>
-	<script src="js/aos.js" type="text/javascript"></script>
-	<link type="text/css" rel="stylesheet" href="css/aos.css">
-	<!--Scripts-->
-	
-	<script >
-	//permite abrir e fechar o menu
-	$(".botao-menu").click(function ()
-	{
-	$(".menu").fadeToggle(700);
-	});
-		function modal(v) {
-			//v=valor da div que sera aberta
-			//op=opção abrir=1 ou fechar=0
-	
-				if (v == 1) 
-				{
-					$(".o"+v).slideDown(700);
-					$(".o2").slideUp(700);
+		<script  src="js/jquery.js"></script>
+		<script src="js/aos.js" type="text/javascript"></script>
+		<link type="text/css" rel="stylesheet" href="css/aos.css">
+		<script>
+			//permite abrir e fechar o menu
+			$(".botao-menu").click(function ()
+			{
+			$(".menu").fadeToggle(700);
+			});
+				function modal(v) {
+					//v=valor da div que sera aberta
+					//op=opção abrir=1 ou fechar=0
+			
+						if (v == 1)
+						{
+							$(".o"+v).slideDown(700);
+							$(".o2").slideUp(700);
+							
+						}else if(v==2){
+						$(".o"+v).slideDown(700);
+							$(".o1").slideUp(700);
+						}else{
+							$(".o1").slideUp(700);
+							$(".o2").slideUp(700);
+						}
 					
-				}else if(v==2){
-				    $(".o"+v).slideDown(700);
-					$(".o1").slideUp(700);
-				}else{
-					$(".o1").slideUp(700);
-					$(".o2").slideUp(700);
-				}
+					
+					
+				
 			
 			
-			
-		
-	
-	
-	}
-	AOS.init();
-	</script>
+			}
+			AOS.init();
+		</script>
+	<!--Scripts-->
 </body>
 </html>
